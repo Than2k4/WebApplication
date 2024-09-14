@@ -19,3 +19,8 @@ function scrollToContact(event) {
     const contactSection = document.getElementById('contact');
     contactSection.scrollIntoView({ behavior: 'smooth' })
 }
+function scrollToBottom(event){
+    event.preventDefault()
+    const bottomSection = document.getElementById('content');
+    bottomSection.scrollIntoView({behavior:'smooth'})
+}
