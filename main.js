@@ -24,3 +24,8 @@ function scrollToBottom(event){
     const bottomSection = document.getElementById('content');
     bottomSection.scrollIntoView({behavior:'smooth'})
 }
+function scrollToVideo(event) {
+    event.preventDefault()
+    const exerciseSection = document.getElementById('video');
+    exerciseSection.scrollIntoView({ behavior: 'smooth' })
+}
